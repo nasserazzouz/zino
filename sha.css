@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,blue, rgb(248, 10, 228));
+}
+#h1h{
+    color: white;
+    text-align: center;
+    border: springgreen solid 4PX;
+    
+}
+#IM{
+   width: 100%; 
+}
+body ol{
+    list-style-type: none;
+    text-align: center;
+}
+
+ h1{
+    
+   line-height: 100px;
+   padding: 0px 15px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+   
+}

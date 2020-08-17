@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100PX;
+    background-image: linear-gradient(to right,BLUE, rgba(157, 38, 168, 0.747));
+   width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    line-height: 100PX;
+    width: 100px;
+   
+    text-align: center;
+}
+
+nav  a
+ { 
+    text-decoration: none;
+    display:  inline-block;
+    color: white;
+    text-align: center;
+    line-height: 5;
+}
+#nd {
+ 
+   display: none;
+   background-image: linear-gradient(to right,black, rgb(104, 83, 83));
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+   
+}
+#nd a{
+    color: white;
+    display: block;
+}
+#lidiv:hover #nd{
+    display: block;
+}
+nav a:hover,#nd :hover{
+    
+    color: black;
+    width: 100%;
+    height: 100%;
+    border-bottom:solid rgb(255, 72, 0) 4PX ;
+    transition: all 0.5s;
+    background:whitesmoke;
+}
+
+#nb,#cv{
+    border-bottom: white solid 10PX;
+    width: 100%;
+    height: 800PX;
+    background-color: rgba(11, 253, 208, 0.96);
+    display: flex;
+    animation-name: ase;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+aside{
+
+    width: 25%;
+    height: 100%;
+  float: right;
+
+}
+#qe{
+    width: 100%;
+    height: 100%;
+}
+#qw{
+    width: 100%;
+    height: 80%;
+}
+#art{
+    float: left;
+
+width: 80%;
+height:800px;
+text-align: center;
+position: relative;
+}
+#boxe,#box{
+   
+width: 250PX;
+height: 150PX;
+color: white;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+position: absolute;
+}
+#box H1{
+    border-bottom: 3PX solid rgb(0, 255, 21);
+    padding: 15PX 0;
+    background-image: linear-gradient(to right,BLUE, rgba(157, 38, 168, 0.747));
+    }
+    #box p{
+        padding: 15PX 0;
+        font-family: 'Markazi Text', serif;
+        text-align: justify;
+        background-image: linear-gradient(to right,BLUE, rgba(157, 38, 168, 0.747));
+    }
+  
+    #contact-box h1{
+       
+      float: left;
+      
+    }
+    #contact-box img{
+    
+        width: 12%;
+      
+        
+    }
+  
+   
+@keyframes ase{
+    0%{
+       background-color: rgba(255, 0, 0, 0.815);
+    }
+    50%{
+        background-color: rgb(132, 0, 255);
+    }
+    100%{
+        background-color:blue;
+    }
+}
+@media only screen  and (max-width: 1300PX){
+    aside{
+width: 40%;
+    }
+    @media only screen  and (max-width: 960PX){  
+#contact-box {
+display: inline;
+}
+}
+@media only screen  and (max-width: 600PX){ 
+    header{
+        height: 300PX;
+        background-image: linear-gradient(to right,BLUE, rgba(157, 38, 168, 0.747));
+       width: 100%;
+    }
+    nav li{
+        display: block;
+        line-height: 100PX;
+        width: 100%;
+       
+        text-align: center;
+    }
+    #nd {
+    width: 100%;
+    }
+    #box{
+   
+        width: 170PX;
+        height: 400PX;
+}
